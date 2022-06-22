@@ -1,0 +1,25 @@
+{
+  "name": "cloudron-api",
+  "displayName": "Cloudron API Lib",
+  "version": "0.0.0",
+  "description": "A wrapper library for the Cloudron API.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "author": {
+    "name": "4lch4",
+    "email": "hey@4lch4.email",
+    "url": "https://4lch4.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cloudron",
+    "api",
+    "wrapper",
+    "library"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "pretty": "prettier --write ."
+  }
+}
